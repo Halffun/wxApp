@@ -1,0 +1,17 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+		<view class="songList">
+				<block wx:for="{{songList}}" wx:key="index">
+						<view class="item" data-id="{{index}}" bindtap="toAudio">
+								<view class="index">{{index+1}}</view>
+								<view class="rightView">
+										<view class="song-title">
+												<!-- Id: {{item.id}} -->
+												{{item.name}}
+										</view>
+										<view class="singer"></view>
+								</view>
+						</view>
+				</block>
+		</view>
+</view>
