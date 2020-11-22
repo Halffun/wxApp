@@ -1,0 +1,4 @@
+<!--logs.wxml-->
+<van-grid column-num="4" center>
+  <van-grid-item icon="photo-o" text="文字" wx:for="{{ 17 }}" wx:key="index"/>
+</van-grid>

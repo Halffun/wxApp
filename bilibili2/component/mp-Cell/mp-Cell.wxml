@@ -1,0 +1,22 @@
+<!--component/mp-Cell/mp-Cell.wxml-->
+<view class="video-list">
+  <view class="video-image">
+    <image src="{{images}}"/> 
+    <view class="video-time">13:00</view>
+  </view>       
+  <view class="video-title">
+    <view>hhhhhh</view>
+    <view class="video-title-bottom">
+      <view>ddddddd</view>
+      <view>ddddddd</view>
+      <view class="video-tips">
+        <view>ddddddd</view>
+        <view>8-22</view>
+        <van-icon name="share" />
+      </view> 
+    </view>  
+  </view>  
+</view>
+<view class="bottom-line"></view>
+  
+

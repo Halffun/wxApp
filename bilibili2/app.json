@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "哔哩哔哩",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#d4237a",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/shouye.png",
+        "selectedIconPath": "./images/shouye1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "分区",
+        "iconPath": "./images/fenqu.png",
+        "selectedIconPath": "./images/fenqu1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "./images/bilibili-line.png",
+        "selectedIconPath": "./images/bilibili-line1.png"
+      }
+    ]
+  },    
+  "sitemapLocation": "sitemap.json",
+  "entryPagePath": "pages/index/index"
+}

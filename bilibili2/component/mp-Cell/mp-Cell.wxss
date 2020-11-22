@@ -1,0 +1,47 @@
+/* component/mp-Cell/mp-Cell.wxss */
+.video-list{
+  display: flex;
+  padding: 15rpx 20rpx;
+}
+.video-image{
+  width: 300rpx; 
+  height: 170rpx; 
+  margin-right: 15rpx;
+  border-radius: 8rpx;
+  overflow: hidden;
+}
+.video-list image{
+  width: 100%;
+  height: 100%;
+}
+.video-time{
+  float: left;
+  height: 30rpx;
+  width: 56rpx;
+  color: #fff;
+  font-size: 18rpx;
+  text-align: center;
+  position: absolute;
+  top: 150rpx;
+  left: 260rpx;
+  background-color: rgba(0,0,0,0.2);
+}
+.video-title{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.video-title-bottom{
+  display: flex;
+  flex-direction: column;
+  line-height: 100%;
+  font-size: 20rpx;
+}
+.video-tips{
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-line{
+  border-bottom: 1px solid #DCDCDC;
+}

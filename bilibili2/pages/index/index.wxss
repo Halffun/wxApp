@@ -1,0 +1,9 @@
+/**index.wxss**/
+.bottom-line{
+  border-bottom: 1px solid #DCDCDC;
+}
+.animations{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

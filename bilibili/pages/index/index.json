@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "nav-bar": "../../component/nav-bar/nav-bar",
+    "van-tab": "../../miniprogram/miniprogram_npm/@vant/weapp/tab/index",
+    "van-tabs": "../../miniprogram/miniprogram_npm/@vant/weapp/tabs/index",
+    "van-dropdown-menu": "../../miniprogram/miniprogram_npm/@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "../../miniprogram/miniprogram_npm/@vant/weapp/dropdown-item/index"
+  }
+}

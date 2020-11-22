@@ -1,0 +1,17 @@
+<!-- <block wx:for="{{products}}">
+  <van-card
+  price="{{item.view}}"
+  origin-price="{{item.view1}}"
+  desc="{{item.color}}"
+  title="{{item.title}}"
+  thumb="{{item.image}}"
+  data-id="{{item._id}}"
+  centered="{{false}}"
+  tag="{{item.tag}}"
+  thumb-link="{{item.tl}}"
+  bindtap="gotoDetail"
+  />
+</block> -->
+<view class="m30">
+  <van-button block type="primary" bindtap="uploadAvata">上传照片</van-button>
+</view>

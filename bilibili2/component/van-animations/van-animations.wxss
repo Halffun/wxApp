@@ -1,0 +1,28 @@
+/* component/van-animations/van-animations.wxss */
+.week-sunday{
+  display: inline-block;
+}
+.week-sunday-items{
+  width: 160rpx;
+  height: 260rpx;
+  padding-top: 20rpx;
+}
+.week-sunday-item-image{
+  width: 100%;
+  height: 180rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.week-sunday-item image{
+  width: 100%;
+  height: 100%;
+}
+.animation-sets{
+  font-size: 20rpx;
+  color: #C0C0C0;
+}
+.animationName{
+  text-overflow : ellipsis;
+  white-space : nowrap;
+  overflow : hidden;
+}

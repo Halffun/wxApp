@@ -1,0 +1,12 @@
+<!--component/van-animations/van-animations.wxml-->
+<view class="week-sunday">
+  <view class="week-sunday-items">
+    <view class="week-sunday-item">
+      <view class="week-sunday-item-image">
+        <image src="https://i0.hdslb.com/bfs/bangumi/image/e998af8700ac187586a18aa235bf500734494d79.png@87w_88h_1c_100q.webp" />
+      </view>
+      <view class="animationName">元龙元龙元龙元龙元龙元龙元龙</view>
+      <view class="animation-sets">第11话</view>
+    </view> 
+  </view>
+</view>

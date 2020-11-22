@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "mp-Cell": "../../component/mp-Cell/mp-Cell",
+    "van-animations": "../../component/van-animations/van-animations",
+    "van-search": "@vant/weapp/search/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  }
+}

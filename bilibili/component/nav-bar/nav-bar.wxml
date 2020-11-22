@@ -1,0 +1,22 @@
+<!--component/nav-bar/nav-bar.wxml-->
+<view>
+  <view style="height:{{topHeight}}px"></view> 
+  <view class="m-navbar">
+    <view style="{{statusBarStyle}}px"></view>
+    <view style="{{navBarStyle}}">
+      <navigator class="logo router-link-exact-active router-link-active" url="../../pages/index/index">
+        <i class="iconfont Navbar_logo"></i>
+      </navigator>
+        <view class="right">
+          <navigator class="search">
+            <i class="iconfont ic_search_tab"></i>
+          </navigator>
+          <navigator class="face">
+            <image src="{{img}}"/>
+          </navigator>
+          <button class="openapp">下载App</button>
+        </view> 
+      </view>
+  </view>
+</view>
+

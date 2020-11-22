@@ -1,0 +1,15 @@
+{
+  "name": "products",
+  "version": "1.0.0",
+  "description": "vant 小程序生态的企业级框架有了",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

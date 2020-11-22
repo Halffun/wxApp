@@ -1,0 +1,17 @@
+.suspension{
+  height: 168rpx;
+}
+.suspension-box{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+  top: 0;
+}
+.m-home{
+  background: #fff;
+}
+.a{
+  height:100000rpx;
+  background-color: #000;
+}

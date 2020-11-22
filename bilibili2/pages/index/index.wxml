@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<van-search
+  value="{{ value }}"
+  shape="round"
+/>
+<van-tabs animated z-index="999" line-width="30" line-height="1" swipeable="{{true}}" color="#FF69B4" title-active-color="#FF69B4">
+  <van-tab title="热门">
+    <view class="bottom-line"></view>
+    <mp-Cell wx:for="{{10}}" wx:key="index"></mp-Cell> 
+  </van-tab>
+  <van-tab title="追番">
+  <!-- 每周追番 -->
+    <view class="week-animation">
+      <van-tabs swipe-threshold='7' line-height='0' bind:click="{{}}">
+        <van-tab title="日">
+          <view class="animations">
+            <van-animations wx:for="{{8}}" wx:key="index"></van-animations>
+          </view>
+        </van-tab>
+        <van-tab title="一">
+          <view class="animations">
+            <van-animations wx:for="{{8}}" wx:key="index"></van-animations>
+          </view>
+        </van-tab>
+        <van-tab title="二">
+          <view class="animations">
+            <van-animations wx:for="{{8}}" wx:key="index"></van-animations>
+          </view>
+        </van-tab>
+        <van-tab title="三">
+          <view class="animations">
+            <van-animations wx:for="{{8}}" wx:key="index"></van-animations>
+          </view>
+        </van-tab>
+        <van-tab title="四">
+          <view class="animations">
+            <van-animations wx:for="{{8}}" wx:key="index"></van-animations>
+          </view>
+        </van-tab>
+        <van-tab title="五">
+          <view class="animations">
+            <van-animations wx:for="{{8}}" wx:key="index"></van-animations>
+          </view>
+        </van-tab>
+        <van-tab title="六">
+          <view class="animations">
+            <van-animations wx:for="{{8}}" wx:key="index"></van-animations>
+          </view>
+        </van-tab>
+      </van-tabs>
+    </view> 
+    <!-- 索引 -->
+    <!-- 追番推荐 -->
+    <!-- 国创推荐 -->
+  </van-tab>
+</van-tabs>
